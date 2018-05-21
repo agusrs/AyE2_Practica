@@ -20,11 +20,13 @@ public class PruebasPractica6 {
 		System.out.println("la suma de h1 y h2 es: " + h1);
 		*/
 		
+		/*Ejercicio 7
 		Empleado emp = new Empleado();
 		emp.verDatos();
 		
 		Empleado emp2 = new Empleado(2, "Marc");
 		emp2.verDatos();
+		*/
 	}
 
 }
