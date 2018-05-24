@@ -39,11 +39,21 @@ public class PruebasPractica6 {
 		Punto.sonIguales(p1,p2);
 		*/
 		
+		/* Ejercicio 9
 		Vector3D v1  = new Vector3D(1, 2, 3);
 		Vector3D v2  = new Vector3D(4, 5, 6);
 		
 		Vector3D.sumarPuntos(v1, v2);
 		Vector3D.sonIguales(v1, v2);
+		*/
+		
+		Monedero money = new Monedero();
+		
+		money.agregarDinero(20);
+		money.consultarDinero();
+		money.sacarDinero(10);
+		money.sacarDinero(30);
+		
 	}
 
 }

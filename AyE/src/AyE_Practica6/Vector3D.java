@@ -36,7 +36,7 @@ public class Vector3D extends Punto {
 	}
 	@Override
 	public String toString() {
-		return "Vector3D z=" + z + ", x=" + x + ", y=" + y;
+		return "Vector3D x=" + x + ", y=" + y + ", z=" + z;
 	}
 		
 		public static boolean sonIguales (Vector3D v1, Vector3D v2) {
