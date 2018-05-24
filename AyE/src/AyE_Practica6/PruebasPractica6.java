@@ -47,12 +47,15 @@ public class PruebasPractica6 {
 		Vector3D.sonIguales(v1, v2);
 		*/
 		
+		/*
 		Monedero money = new Monedero();
 		
 		money.agregarDinero(20);
 		money.consultarDinero();
 		money.sacarDinero(10);
 		money.sacarDinero(30);
+		*/
+		
 		
 	}
 
