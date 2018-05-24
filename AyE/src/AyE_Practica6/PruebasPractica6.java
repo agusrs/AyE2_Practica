@@ -28,14 +28,22 @@ public class PruebasPractica6 {
 		emp2.verDatos();
 		*/
 		
-		Punto p1=new Punto();
+		/*Ejeercicio 8
+		  Punto p1=new Punto();
+		 
 		Punto p2 = new Punto(3, 5);
 		
 		System.out.println("x= " + p1.getX() + "y= " + p1.getY());
 		
 		Punto.sumarPuntos(p1, p2);
 		Punto.sonIguales(p1,p2);
+		*/
 		
+		Vector3D v1  = new Vector3D(1, 2, 3);
+		Vector3D v2  = new Vector3D(4, 5, 6);
+		
+		Vector3D.sumarPuntos(v1, v2);
+		Vector3D.sonIguales(v1, v2);
 	}
 
 }

@@ -1,8 +1,8 @@
 package AyE_Practica6;
 
 public class Punto {
-	private float x;
-	private float y;
+	protected float x;
+	protected float y;
 	
 	public Punto() {
 		x=0;
