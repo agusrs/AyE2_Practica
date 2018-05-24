@@ -27,6 +27,15 @@ public class PruebasPractica6 {
 		Empleado emp2 = new Empleado(2, "Marc");
 		emp2.verDatos();
 		*/
+		
+		Punto p1=new Punto();
+		Punto p2 = new Punto(3, 5);
+		
+		System.out.println("x= " + p1.getX() + "y= " + p1.getY());
+		
+		Punto.sumarPuntos(p1, p2);
+		Punto.sonIguales(p1,p2);
+		
 	}
 
 }
